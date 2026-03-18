@@ -1,0 +1,23 @@
+nav{
+    display: flex; /*elementos lado a lado*/
+    justify-content: space-between; /*joga os elementos  para os lados e deixa espaço no centro*/
+    align-items: center;
+    
+    line-height: 0;
+    padding-block: 20px;
+}
+
+nav ul{
+    list-style:none; /*tirnado os marcadores da lista*/
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+     padding-block: 8px;
+
+}
+
+nav ul li:last-child img{
+    width: 40px;
+    height: 40px;
+}
